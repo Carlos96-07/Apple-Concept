@@ -53,6 +53,13 @@
           <span class="region-text">América Latina (Español)</span>
         </div>
       </div>
+
+      <!-- Legal Educational Disclaimer -->
+      <div class="footer-disclaimer-box">
+        <p>
+          <strong>Aviso Legal & Deslinde:</strong> Este sitio web es un proyecto conceptual y educativo de portafolio sin fines de lucro, desarrollado por el dev Carlos Leandro. No está afiliado, patrocinado ni asociado con Apple Inc. Las marcas Apple, iPhone, iPad, MacBook y Apple Watch pertenecen a Apple Inc.
+        </p>
+      </div>
     </div>
   </footer>
 </template>
@@ -176,5 +183,19 @@ defineEmits(['select-category']);
 .region-text {
   color: #86868b;
   margin-left: 0.5rem;
+}
+
+.footer-disclaimer-box {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.74rem;
+  color: #86868b;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.footer-disclaimer-box strong {
+  color: #a1a1a6;
 }
 </style>
