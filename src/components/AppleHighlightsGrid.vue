@@ -17,8 +17,8 @@
             <!-- Top Tag & Headline -->
             <div class="highlight-card-header">
               <div v-if="card.hasAppleBadge" class="apple-circle-badge card-badge">
-                <svg viewBox="0 0 24 24" width="18" height="18" fill="#ffffff" aria-label="Logo">
-                  <path fill="#ffffff" d="M12 2c.5 0 1 .3 1.3.8.7-.7 1.8-1 2.7-.6 0 0-.7 2-2.1 2.8 2 1 3.3 3.1 3.3 6 0 4.2-2.9 7.5-6 7.5s-6-3.3-6-7.5c0-2.9 1.3-5 3.3-6C7.1 3.2 6.4 1.2 6.4 1.2c.9-.4 2 0 2.7.6.3-.5.8-.8 1.3-.8z"/>
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="#ffffff" aria-label="Logo">
+                  <path fill="#ffffff" d="M13.2 3.8c1.6-1.5 4.1-1.8 5.3-1.8-.2 1.3-.9 3.5-2.6 4.4-1-.8-2-1.5-2.7-2.6zM12 6c-3.2 0-6.5 2.5-6.5 7.3 0 4.6 3 8.2 6.5 8.2.8 0 1.5-.3 2-.3.5 0 1.2.3 2 .3 3.5 0 6.5-3.6 6.5-8.2C22.5 8.5 19.2 6 16 6c-1.1 0-2.2.3-3 .8-.8-.5-1.9-.8-3-.8z"/>
                 </svg>
               </div>
               <span class="highlight-tag">{{ card.tag }}</span>

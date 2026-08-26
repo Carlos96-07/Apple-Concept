@@ -5,9 +5,11 @@
       <div class="container nav-container">
         <!-- Apple Logo -->
         <a href="#" class="apple-logo-link" aria-label="iStudio Inicio" @click.prevent="scrollToTop">
-          <svg class="apple-logo-icon" viewBox="0 0 24 24" width="20" height="20" aria-label="Logo">
-            <path fill="currentColor" d="M12 2c.5 0 1 .3 1.3.8.7-.7 1.8-1 2.7-.6 0 0-.7 2-2.1 2.8 2 1 3.3 3.1 3.3 6 0 4.2-2.9 7.5-6 7.5s-6-3.3-6-7.5c0-2.9 1.3-5 3.3-6C7.1 3.2 6.4 1.2 6.4 1.2c.9-.4 2 0 2.7.6.3-.5.8-.8 1.3-.8z"/>
-          </svg>
+          <div class="apple-circle-badge nav-badge">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="#ffffff" aria-label="Logo">
+              <path d="M13.2 3.8c1.6-1.5 4.1-1.8 5.3-1.8-.2 1.3-.9 3.5-2.6 4.4-1-.8-2-1.5-2.7-2.6zM12 6c-3.2 0-6.5 2.5-6.5 7.3 0 4.6 3 8.2 6.5 8.2.8 0 1.5-.3 2-.3.5 0 1.2.3 2 .3 3.5 0 6.5-3.6 6.5-8.2C22.5 8.5 19.2 6 16 6c-1.1 0-2.2.3-3 .8-.8-.5-1.9-.8-3-.8z"/>
+            </svg>
+          </div>
           <span class="apple-brand-text">iStudio</span>
         </a>
 
@@ -171,10 +173,31 @@ onUnmounted(() => {
 .apple-logo-link {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.5rem;
   text-decoration: none;
-  opacity: 0.85;
+  opacity: 0.9;
   transition: opacity 200ms ease;
+}
+
+.nav-badge {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  transition: background 300ms ease, border-color 300ms ease;
+}
+
+.nav-badge svg {
+  fill: #ffffff;
+}
+
+.apple-global-nav.scrolled .nav-badge {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .apple-brand-text {
