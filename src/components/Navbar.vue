@@ -5,8 +5,8 @@
       <div class="container nav-container">
         <!-- Apple Logo -->
         <a href="#" class="apple-logo-link" aria-label="iStudio Inicio" @click.prevent="scrollToTop">
-          <svg class="apple-logo-icon" viewBox="0 0 448 512" width="14" height="14" fill="#ffffff" aria-label="Logo">
-            <path d="M224 0c-17.7 0-32 14.3-32 32v16.7C128.7 65.5 80 121.2 80 192c0 97.2 78.8 176 176 176s176-78.8 176-176c0-70.8-48.7-126.5-112-143.3V32c0-17.7-14.3-32-32-32s-32 14.3-32 32v1.1C244.8 33.7 234.5 32 224 32s-20.8 1.7-32 3.1V32c0-17.7-14.3-32-32-32z"/>
+          <svg class="apple-logo-icon" viewBox="0 0 24 24" width="20" height="20" aria-label="Logo">
+            <path fill="currentColor" d="M12 2c.5 0 1 .3 1.3.8.7-.7 1.8-1 2.7-.6 0 0-.7 2-2.1 2.8 2 1 3.3 3.1 3.3 6 0 4.2-2.9 7.5-6 7.5s-6-3.3-6-7.5c0-2.9 1.3-5 3.3-6C7.1 3.2 6.4 1.2 6.4 1.2c.9-.4 2 0 2.7.6.3-.5.8-.8 1.3-.8z"/>
           </svg>
           <span class="apple-brand-text">iStudio</span>
         </a>
@@ -155,6 +155,8 @@ onUnmounted(() => {
 }
 
 .apple-logo-icon {
+  width: 20px;
+  height: 20px;
   fill: #000000;
   transition: fill 300ms ease;
 }
