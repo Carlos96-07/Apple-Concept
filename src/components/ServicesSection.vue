@@ -8,7 +8,7 @@
         </div>
 
         <h2 class="section-title">
-          Experiencia Integral iStudio CR.
+          Experiencia Integral iStudio.
         </h2>
 
         <p class="section-lead">
