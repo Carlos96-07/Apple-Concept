@@ -22,7 +22,7 @@ export const categories = [
 export const services = [
   {
     id: 'trade-in',
-    title: 'iPhone Costa Rica Trade In',
+    title: 'iStudio CR Trade In',
     subtitle: 'Entrega tu equipo actual. Ahorra en el nuevo.',
     description: 'Obtén de $200 a $800 de crédito inmediato entregando tu smartphone o tablet actual. Un proceso rápido, seguro y ecológico.',
     icon: 'Repeat',
@@ -31,7 +31,7 @@ export const services = [
   },
   {
     id: 'aura-care',
-    title: 'iPhone Costa Rica Care+',
+    title: 'iStudio CR Care+',
     subtitle: 'Protección integral y soporte de expertos 24/7.',
     description: 'Cubre reparación ilimitada por daños accidentales, reemplazo express de batería y acceso directo prioritario a nuestros ingenieros.',
     icon: 'ShieldCheck',

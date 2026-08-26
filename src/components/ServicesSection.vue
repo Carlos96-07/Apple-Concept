@@ -8,7 +8,7 @@
         </div>
 
         <h2 class="section-title">
-          Experiencia Integral iPhone Costa Rica.
+          Experiencia Integral iStudio CR.
         </h2>
 
         <p class="section-lead">

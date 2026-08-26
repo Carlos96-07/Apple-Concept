@@ -10,7 +10,7 @@
 
           <h2 class="contact-title">¿Deseas una asesoría VIP?</h2>
           <p class="contact-desc">
-            Nuestros especialistas en productos Apple Costa Rica están listos para guiarte en tu elección, cotizaciones empresariales o soporte técnico personalizado.
+            Nuestros especialistas en iStudio CR están listos para guiarte en tu elección, cotizaciones empresariales o soporte técnico personalizado.
           </p>
 
           <div class="contact-details-list">
@@ -20,7 +20,7 @@
               </div>
               <div class="detail-text">
                 <span class="detail-label">Correo Electrónico</span>
-                <span class="detail-value">contacto@iphonecostarica.com</span>
+                <span class="detail-value">contacto@istudiocr.concept</span>
               </div>
             </div>
 
@@ -29,8 +29,8 @@
                 <Phone :size="20" class="text-cyan" />
               </div>
               <div class="detail-text">
-                <span class="detail-label">Línea Directa Costa Rica</span>
-                <span class="detail-value">+506 800-IPHONE-CR</span>
+                <span class="detail-label">Línea Directa CR</span>
+                <span class="detail-value">+506 800-ISTUDIO-CR</span>
               </div>
             </div>
 
@@ -40,7 +40,7 @@
               </div>
               <div class="detail-text">
                 <span class="detail-label">Sede Central</span>
-                <span class="detail-value">iPhone Costa Rica Center, San José</span>
+                <span class="detail-value">iStudio CR Center, San José</span>
               </div>
             </div>
           </div>
