@@ -18,6 +18,19 @@
         @open-detail="openDetailModal"
       />
 
+      <!-- Filter Bar -->
+      <FilterBar 
+        ref="filterBarRef"
+        :categories="categories"
+        :active-category="activeCategory"
+        :search-query="searchQuery"
+        :sort-by="sortBy"
+        @update:category="handleCategorySelect"
+        @update:search="handleSearchUpdate"
+        @update:sort="handleSortUpdate"
+        @reset-filters="resetFilters"
+      />
+
       <!-- "Conoce a la familia." Grid Component -->
       <ProductGrid 
         :filtered-products="filteredProducts"
@@ -36,19 +49,6 @@
 
       <!-- "iPhone y Mac" Ecosystem Section -->
       <EcosystemSection />
-
-      <!-- Filter Bar -->
-      <FilterBar 
-        ref="filterBarRef"
-        :categories="categories"
-        :active-category="activeCategory"
-        :search-query="searchQuery"
-        :sort-by="sortBy"
-        @update:category="handleCategorySelect"
-        @update:search="handleSearchUpdate"
-        @update:sort="handleSortUpdate"
-        @reset-filters="resetFilters"
-      />
 
       <!-- "Servicios" Section -->
       <ServicesSection @request-service="handleServiceRequest" />
